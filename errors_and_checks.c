@@ -15,7 +15,7 @@
 
 bool	g_check_args(int argc, char **argv)
 {
-	if (argc < 5 || (ft_strncmp(argv[1], "here_doc", 9) == 0 && argc < 7))
+	if (argc < 5 || (ft_strncmp(argv[1], "here_doc", 9) == 0 && argc < 6))
 		ft_error("Wrong number of arguments", 10);
 	if (ft_strncmp(argv[1], "here_doc", 9) == 0)
 		return (true);
